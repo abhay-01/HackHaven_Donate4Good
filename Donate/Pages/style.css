@@ -345,6 +345,31 @@ ul {
   margin-top: 42px;
 }
 
+#footer-btn{
+  background: #C30047;
+  font-family: "Roboto",sans-serif;
+  text-transform: inherit !important;
+  padding: 22px 32px;
+  margin-left: 80px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 19px !important;
+  font-weight: 500 !important;
+  border-radius: 35px;
+  cursor: pointer;
+  transition: color 0.4s linear;
+  z-index: 1;
+  border: 0;
+  overflow: hidden;
+  
+}
+
+#footer-btn:hover{
+  transition: 0.3s ease-in-out;
+      color: yellow;
+      transform: scale(1.1);
+      border: 2px solid yellow;
+}
 
 
 
