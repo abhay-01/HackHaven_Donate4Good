@@ -258,6 +258,41 @@ ul {
   border: 0;
   overflow: hidden;
 }
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-card {
+  width: 400px;
+  height: 200px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+
+.testimonial-card.active {
+  display: block;
+}
+
+.quote {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.author {
+  margin-top: 10px;
+  text-align: right;
+}
+
+
+
  footer {
   background-color: black;
   color: white;
