@@ -152,7 +152,7 @@ ul {
 
    .box{
       border: 2px solid rgb(13, 5, 5);
-      padding: 54px;
+      padding: 4px;
       margin: 18px;
       border-radius: 25px;
       background-color: #E5C6C6;
@@ -183,6 +183,7 @@ ul {
  .box h2{
   color: white;
   margin-top: 12px;
+  margin-left: 22px;
 
  }
 
@@ -192,7 +193,7 @@ ul {
   font-family: "Roboto",sans-serif;
   text-transform: inherit !important;
   padding: 22px 32px;
-  margin-left: 80px;
+  margin-left: 120px;
   color: #fff;
   cursor: pointer;
   display: inline-block;
