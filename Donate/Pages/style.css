@@ -12,6 +12,19 @@
       opacity: 1;
    }
 }
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 body {
     background-color: #E5C6C6;
     font-family: 'Roboto', sans-serif;
@@ -130,6 +143,182 @@ ul {
 
     }
 
+   #section-counter{
+      position: relative;
+      z-index: 0;
+
+    }
+
+    .ftco-intro{
+      margin-top: -217px;
+    }
+
+   .container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    }
+
+     .no-gutters{
+      margin-right: 0;
+      margin-left: 0;
+    }
+
+    section{
+      display: block;
+    }
+
+     .row{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+    }
+
+    
+.justify-content-center{
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+
+.d-flex{
+
+  display: -webkit-box !important; 
+  display: -ms-flexbox !important; 
+  display: flex !important;
+}
+
+.col-md-5, .col-md{
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.fadeInUp{
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+.ftco-animated{
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; 
+}
+
+.ftco-intro .block-18.color-1 {
+  background: #f86f2d;
+}
+
+
+.ftco-intro .block-18 {
+  display: block;
+  width: 100%;
+  padding: 30px;
+  color: rgba(0, 0, 0, 0.7);
+
+}
+
+
+.align-items-stretch {
+  -webkit-box-align: stretch !important;
+  -ms-flex-align: stretch !important;
+  align-items: stretch !important;
+}
+
+.block-18 .text span {
+  display: block;
+}
+
+span {
+  color: #666161;
+  font-size: 26px;
+  font-family: "Lora",serif;
+
+}
+
+
+.ftco-intro .block-18 .text strong {
+  font-size: 60px;
+  color: #000;
+  font-weight: 300;
+}
+
+/* .ftco-animate {
+  opacity: 0;
+  visibility: hidden;
+} */
+
+.block-18 .text strong {
+  font-size: 30px;
+}
+
+b, strong {
+  font-weight: bolder;
+} 
+
+.ftco-intro .block-18.color-2 {
+  background: #fa8f3d;
+}
+
+.mb-4{
+  margin-bottom: 1.5rem !important;
+ 
+}
+
+.text h3{
+
+    line-height: 1.4;
+    color: #666161;
+    font-family: "Lora",serif;
+    font-weight: 400;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 26px;
+  font-family: "Lora",serif;
+
+}
+
+.btn.btn-white {
+  background: #fff;
+  border: 1px solid #fff;
+  color: #000;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  font-size: 26px;
+  font-family: "Lora",serif;
+
+  &:hover {
+    background: #000;
+    border: 1px solid #fff;
+    color: white;
+  }
+}
+
+.ftco-intro .block-18.color-3 {
+  background: #faaa3a;
+}
+
+
     #causes h2{
       display: flex;
       justify-content: center;
@@ -137,7 +326,7 @@ ul {
       font-family: "Kameron",serif;
       color:#f73518;
       font-size: 50px;
-      margin-top: -128px;
+      margin-top: 32px;
     }
 
 
