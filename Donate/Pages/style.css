@@ -323,12 +323,62 @@ ul {
     background-color: #d57575;
     border-radius: 8px;
     padding: 5px;
+    margin: 20px;
 
     &:hover{
       background-color: #ede6e6;
       color: black;
     }
   }
+
+  .social-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #ede9e9;
+  }
+
+  .fa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4CAF50;
+    width: 30%;
+
+  }
+
+  .fa p{
+    font-size: medium;
+  }
+  .ins{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4CAF50;
+    width: 30%;
+
+  }
+
+  .ins p{
+    font-size: medium;
+  }
+
+  .tw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4CAF50;
+    width: 30%;
+
+  }
+
+  .tw p{
+    font-size: medium;
+  }
+
+
     #btn{
       animation: 5s ease-in-out 0s 1 fadeInAnimation;;
       position: absolute;
