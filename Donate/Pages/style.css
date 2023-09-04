@@ -379,6 +379,62 @@ ul {
   }
 
 
+  .volunteer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+
+  .vol-head{
+    display: flex;
+    width: 100%;
+  }
+ 
+
+  .vol-head h1{
+    margin-left: 153px;
+    text-decoration: underline;
+    font-family: "Lora",serif;
+    text-align: left;
+    font-size: 3.6rem;
+
+
+  }
+
+  .vol-desc{
+    width: 35%;
+    margin-top: 48px;
+    margin-left: 110px;
+  }
+
+  .vol-desc p{
+    font-size: 1.2em;
+  }
+
+  .vol-slogan{
+    width: 18%;
+    margin-left: 220px;
+    margin-top: 30px;
+  }
+
+  .vol-slogan p{
+    font-size: 1.2em;
+    color:#666161;
+    font-style: italic;
+  }
+
+  .vol-img{
+    width:100%;
+    margin-top: 30px;
+  }
+
+  .vol-img-container{
+    width:40%;
+  }
+
+
     #btn{
       animation: 5s ease-in-out 0s 1 fadeInAnimation;;
       position: absolute;
