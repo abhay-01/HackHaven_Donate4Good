@@ -182,16 +182,153 @@ ul {
 
    .camp-block{
     display: flex;
-    width: 100%;
     margin-top: 74px;
     margin-left: 160px;
+    padding: 20px;
 
    }
 
-   .blocks{
-height: 50%;
-width: 50%;
+   .camp-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
    }
+   .block{
+    border: 1px none rgb(13, 5, 5);
+    padding: 4px;
+    margin: 18px;
+    width: 68%;
+    height:450px;
+    /* background-color: #E5C6C6; */
+    border-radius: 12px;
+   }
+
+   .camp-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+ 
+   .camp-img img{
+    max-width: 103%;
+    max-height: 161.5px;
+    object-fit: contain;
+   }
+
+   .camp-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:5px;
+
+   }
+
+   .date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+
+   .date p{
+    display: flex;
+    font-size: 0.8rem;
+    font-family: "Lora",serif;
+    color: rgb(100, 94, 94);
+    font-weight: bold;
+   }
+
+   .ministry{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+
+   .ministry p{
+    display: flex;
+    font-size: 0.8rem;
+    font-family: "Lora",serif;
+    color: rgb(100, 94, 94);
+    font-weight: bold;
+   }
+
+   .camp-desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+   }
+
+   .camp-desc p{
+    font-size: 1.2rem;
+    font-family: "Lora",serif;
+    color: rgb(17, 15, 15);
+    line-height: 1.2;
+    text-align: justify;
+
+   }
+
+
+   .card {
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 40px;
+    margin: 10px;
+    flex: 200px 0 0;
+  }
+  .cards img {
+      width: 100%;
+      object-fit: cover;
+  }
+  .cards-wrapper {
+    display: flex; 
+    transition: ease 0.5s;
+  }
+  .display-area {
+    width: 880px;
+  /*   border: 1px solid black; */
+    overflow-x: hidden;
+    margin: auto;
+  }
+  
+  .dots-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  
+  .dot {
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    border-radius: 50%;
+    outline: none;
+  }
+  .dot:hover {
+    background: rgba(0, 0, 0, 0.3);
+  }
+  .dot.active {
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .visit{
+    background-color: #d57575;
+    border-radius: 8px;
+    padding: 5px;
+
+    &:hover{
+      background-color: #ede6e6;
+      color: black;
+    }
+  }
     #btn{
       animation: 5s ease-in-out 0s 1 fadeInAnimation;;
       position: absolute;
